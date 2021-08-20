@@ -1,3 +1,8 @@
+
+////////////            Oops CONCEPTS                //////////////////////////////
+
+// child class can access all properties and methods which have its parents(grandparent) becoz of inheritance
+
 //////////////////////////////////////////   EXAMPLE ON CLASS BANK   ////////////////////////////////////////////////
 
 // class bank {
