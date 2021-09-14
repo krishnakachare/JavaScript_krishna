@@ -2,7 +2,14 @@
 // cant stored values by index
 
 
-// 1. Fetching the value from an object
+// CURD OPERATION
+
+//  C = Create property
+//  U = Update property
+//  R = Retrive property
+//  D = delete property
+
+// 1. Fetching(Retrive) the value from an object
 
 //      I. Dot notation  = ObjectName.PropertyName
 //     II. Bracket notation = ObjectName['PropertyName']

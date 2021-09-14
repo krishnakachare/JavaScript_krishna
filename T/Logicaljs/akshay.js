@@ -7,13 +7,14 @@ for (let i = 0; i < fName1.length; i++) {
     if (fName1[i] == fName1[i + 1]) {
         counter++;
     }
-    else {
+    else
+     {
         console.log(fName1[i] + " " + counter);
         counter = 1;
 
     }
 }
-//console.log(counter)
+console.log(counter)
 
 
 

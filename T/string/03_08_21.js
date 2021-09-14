@@ -62,3 +62,7 @@
 // console.log(myname.substring(2,-1))       // kr
 // console.log(myname.substring(2,0))        // kr    
 // console.log(myname.substring(2,))         // ishna kachare     ( when second point is not given then no. of string elements drop or deleted is equals to first (starting) point)
+
+
+
+

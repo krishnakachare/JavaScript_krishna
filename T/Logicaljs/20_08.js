@@ -73,14 +73,14 @@
 
 // //let max = arr[0]
 // let max = 0
-// let min = arr[0]
+// let min = arr[5]     // 1
 
 // for (let i = 0; i < arr.length; i++){
 
 //     if(arr[i] > max){
-//         max = arr[i]                    // 1,2,3,
+//         max = arr[i]                    // 1,2,3,66,78,88
 //     }else if (arr[i] < min){
-//          min = arr[i]              // 66,
+//          min = arr[i]              // 1,-3
 //     }
 // }
 // console.log(max)    // 88
@@ -92,7 +92,70 @@
 
 
 
+// remove duplicate elements from the arrey
+let arr = [ 12,34,12,44,34,12,45,34,57]
 
+let unarr = [];
+
+for(let i = 0; i<arr.length; i++){
+    if(!unarr.includes(arr[i])){
+        unarr.push(arr[i])
+    }
+}
+console.log(unarr)
+
+
+
+
+
+
+// remove duplicate elements from the arrey
+let arr = [ 15,66,88,12,66,57,88,15]
+
+let unarr = [];   
+
+for(let i = 0; i<arr.length; i++){
+   
+    if(unarr.indexOf(arr[i])==arr.indexOf(unarr[i])){
+        unarr.push(arr[i])
+    }                                                   
+}
+console.log(unarr)
+
+
+
+
+
+
+
+var unique =  arr.filter(getunique)
+
+function getunique(el,index,arrey){
+    if(arrey.indexOf(el)== index){
+    return true;
+    
+}
+else {
+    return false
+}
+}
+console.log(unique)
+
+
+
+
+
+
+
+
+let arr = [ 15,66,88,12,66,57,88,15]
+let unique =  arr.filter((el,index,arrey)=>{
+
+    if(arrey.indexOf(el)== index){
+         return true;
+    }
+})
+console.log(unique)
 
 
 

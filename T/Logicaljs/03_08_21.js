@@ -78,12 +78,13 @@
 
 // Find what type of error are occured
 
-// var v1;
+// var v1 = 10
 // let v2;
 // function pr(){
 //     console.log(v1);
 //     console.log(v2);
 // }
+// window.write
 // window.v1;
 // window.v2;
 
@@ -91,3 +92,11 @@
 // console.log(v2)        /// ReferenceError: window is not defined
 
 // ------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+

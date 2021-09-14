@@ -13,23 +13,32 @@
 
 // console.log(x)
 
-
+//********************************************************************************************* */
 
 
 // let strarr = [ 'hi','krishna']
-// console.log(strarr.length)
+// //console.log(strarr.length)        // 2
 
 // for(let i = 0; i < strarr.length; i++){
 
-//     console.log(strarr[i].length)
+//     console.log(strarr[i].length)          // 2    7   
 
 // }
 
+//******************************************************************************************************************
+
+// let a = 10
+// let b = 10
+// console.log(a > b)        // TRUE
+
+//**********************************************************************************************/
+
+// // user defined function  and  inbuilt functions
 
 
-let a = 10
-let b = 10
-console.log(a > b)
+// let q = console.log('hello')               //  hello       
+// console.log(q)                        //  Undefined              (NOT RETURN ANYTHING)
+
 
 
 

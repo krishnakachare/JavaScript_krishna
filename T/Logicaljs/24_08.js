@@ -164,20 +164,90 @@
 // let sortedNum = number.concat(char);
 // console.log(sortedNum)                      // [ -6, 2, 0, 22, 78, 'krishna', 'swapnil', 'vishwajit' ]
 
+//---------------------------------------------------------------------------------------------------------------
+
+//********************************************  REGULAR EXPRESSION  *************************************************/
+
+// let str = "QFGZHhghjgjhghjgQFdghfhjgjgj"
+
+// let C  = str.match(/[A-Z]/g).join("")
+// let L = str.match(/[a-z]/g).join("")
+
+// console.log(`Original string = ${str}`)
+// console.log(`Capital Letters = ${C}`)
+// console.log(`Lower Letters = ${L}`)
 
 
+// let str = "QFGZHhghjgjhghjgQFdghfhjgjgj"  
+// let regex =  /[A-Z]/
+// let bigavi = str.split('').filter(function(el,index,arrey){
+//     if(regex.test(el)){
+//          return true
+//     }
+// })
+//  console.log(bigavi.join(''))
 
 
+//  let str = "QFGZHhghjgjhghjgQFdghfhjgjgj"  
+//   let regex =  /[A-Z]/m
+//   let smallstr = "" 
+//   let capstr = ""
+// for(let i = 0; i< str.length; i++){
+//     if(regex.test(str[i])){
+//         capstr = capstr + str[i]
+//     }
+//     else{
+//         smallstr = smallstr + str[i] 
+//     }
+// }
+// console.log(smallstr)
+// console.log(capstr)
 
 
+// let str = "QFGZHhghjgjhghjgQFdghfhjgjgj" 
+// let capstr = ""
+// let smallstr = ""
+// for(let i = 0; i<str.length; i++){
+//     if(str[i] >= 'A' && str[i] <= 'Z' ){
+//     capstr = capstr + str[i]
+//     }
+//     else{
+//         smallstr = smallstr + str[i]
+//     }
+// }
+// console.log(capstr)
+// console.log(smallstr)
 
 
+//=====================================================================================================
 
+// let abc = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// function print(...a) {
+//    let sum = 0
+//     a.map((el, i) => {
+//         if(i >= 2 && i <= a.length - 4 ){
+//             sum = sum + el
+//         }
+//     })
 
+//     return sum
+// }
 
+// let s = print(...abc)
+// console.log(s)
 
+//====
 
+// NOTE = By using destructuring  we can access STARTING, MIDDLE (anywhere) , LAST values of array and also object
 
+// let abc = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let [a,b,c,d,e] = abc.slice(3,8)
+// let xyz = [a,b,c,d,e].reduce((acc,el)=>{
+//     return acc + el
+// })
+// console.log(xyz)     // 30
+
+// we can change slice parameters by our requirement to get array elements
 
 
 
@@ -308,4 +378,4 @@
 // // deposit 
 // // withdrawl
 
-// // filter and reduce
+// // filter and 
