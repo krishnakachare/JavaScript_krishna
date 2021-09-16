@@ -2,6 +2,8 @@
 // for this function expression is used
 // in method() here passed values is an (function) arrguments , altimately its parameters of function expression
 
+// IN AN OBJECT PROPERTY[KEY] VALUE IS FUNCTION IS CALLED METHOD()
+
 // Example of method() in object
 
 // object have properties and methods
