@@ -93,10 +93,40 @@
 
 // ------------------------------------------------------------------------------------------------------------
 
+// let email = "krishnakachare2@gmail.com"
+// var ne = email[0].toUpperCase()+""
+// //console.log(e)
+// var r = /kris/
+// let vemail = ""
+// for(let i =0; i < email.length; i++){
+//     var condition = true
+//     if(condition){
+//         if(r.test(email[i])){
+//            ne = ne + email[i]
+//            console.log(ne)
+//         }else{
+//             //condition = false
+//         }
+//     }
+// }
+// console.log(ne)
 
-
-
-
+let email = "krishnakachare2@gmail.com"
+let ne =" "
+let r = /[\w]/
+let con = true
+for(let i=0; i<email.length; i++){
+if(con){
+    if(i==0){
+        ne = ne + email[i].toUpperCase()
+    }else if(r.test(email[i])){
+        ne = ne + email[i]
+    }else{
+        con = false
+    }
+}   
+}
+console.log(ne)  //  Krishnakachare2
 
 
 

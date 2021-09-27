@@ -15,18 +15,18 @@ let ravi = {
     age : 31,
     lang : ['Java'],
 
-    write : function(){
+    write : function add(){
         console.log('i can write js and ' + this.lang)
     }
 }
 
-let aa = ravi.write()               // i can write js and Java
-krishna.write()             // i can write js and python
-console.log(aa)          // undefined                                 // out of block it cant be access
+// let aa = ravi.write()               // i can write js and Java
+// krishna.write()             // i can write js and python
+// console.log(aa)          // undefined                                 // out of block it cant be access
 
 
 
-
+console.log(typeof (ravi.write))
 
 
 

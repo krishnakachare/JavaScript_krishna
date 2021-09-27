@@ -68,7 +68,7 @@
 // 	else{
 // 		specialChar = specialChar + 1;
 // 	}
-		
+
 // }
 
 // console.log(numbers, alpha, specialChar)      // 5 12 5
@@ -110,7 +110,7 @@
 // for(let i = 0; i < caa.length; i++){
 
 // 	if(Number(caa[i])){
-		
+
 // 		n = n + 1
 // 	}
 // 	else if ((caa[i] >= 'A' && caa[i] <= 'Z') || (caa[i] >= 'a' && caa[i] <= 'z')) {
@@ -249,12 +249,46 @@
 
 // we can change slice parameters by our requirement to get array elements
 
+//====================================================================================================================
+// count elements
+
+// let str = '123456789'
+// let count = 0
+// for (let i = 0; i < str.length; i++) {
+//     count = i + 1
+// }
+// console.log(count)      // 9
+
+//=========================================================================================================
 
 
 
+let ja = [12,33,133,133,1333]
+ja.sort()
+console.log(ja)
+
+ja = [12,33,55,66,8,9]
+
+// 8,9,12,33,55,66
+
+// let rnn = []
+
+for(let i = 0 ; i < ja.length ; i++){
+    // if(ja[i] > ja[i+1]){
+    //     ja[i] = ja[i+1]
+    // }
+    for(let j = 1 ; j < ja.length ; j++ ){
+        if(ja[i] > j[i]){
+            ja[i] = j[i]
+        }
+    }
+
+}
+
+console.log(ja)
 
 
-
+//=========================================================================================
 
 
 

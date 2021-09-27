@@ -75,21 +75,12 @@
 // // }
 // console.log(b())
 
-
-
 // let a = function(){
 //     console.log(a+b)
 // }
-
 // console.log(a)
-
 // a()
-
-
 //------------------------------------------------------->
-
-
-
 
 
 // let person = {
@@ -109,33 +100,27 @@
 
 //--------------------------------
 
-let add = function(){
-    return 10 + 12
-}
+// let add = function(){
+//     return 10 + 12
+// }
 
 
 // let a = function(){
 //     return 10 + 12
 // }
 
-function addition(a){
-    return a
-}
+// function addition(a){
+//     return a
+// }
 
 // let f = function(){
 //     return 10 + 12
 // }
 
 
-
-let f = addition(add)
-let adda = f()
-console.log(adda)
-
-
-
-
-
+// let f = addition(add)
+// let adda = f()
+// console.log(adda)
 
 
 // let person = {
@@ -145,7 +130,6 @@ console.log(adda)
 //     display:function(){
 //         return [12,13]
 //     }
-
 // }
 
 // let [a,b]= person.display()
@@ -164,7 +148,6 @@ console.log(adda)
 //     display:function(){
 //         return this.age
 //     }
-
 // }
 
 
@@ -198,14 +181,12 @@ console.log(adda)
 //     display:function(){
 //         return this.age
 //     }
-
 // }
 
 
 // person2 = {
 //     age:23,
 //     fullName:"chinmay deshpande",
-
 // }
 
 
@@ -221,11 +202,9 @@ console.log(adda)
 //r.apply(person2,...["good morning","goodevening"])
 //r.apply(person,["good evening","goodmorning"])
 
-
 //--------------------------------------------------->
 
-
-var nam = "rohan"
+// var nam = "rohan"
 
 // let  g = {
 //     nam:"chinmay",
@@ -234,15 +213,11 @@ var nam = "rohan"
 //         console.log("welcome "+this.nam)
 //         function greet(){
 //             console.log("welcome "+this.nam) // not chinmay
-
 //         }
 //         greet()
-
 //     }
-
 // }
 // g.display()
-
 
 //--------------------------->
 
@@ -253,12 +228,9 @@ var nam = "rohan"
 //         console.log("welcome "+this.nam)
 //         let  greet = ()=>{
 //             console.log("welcome "+this.nam) // not chinmay
-
 //         }
 //         greet()
-
 //     }
-
 // }
 // g.display()
 
@@ -266,20 +238,19 @@ var nam = "rohan"
 //----------------------------------------->
 
 
-let  g = {
-    nam:"chinmay",
-    age:30,
-    display:()=>{
-        console.log("welcome "+this.nam)
-        let  greet = ()=>{
-            console.log("welcome "+this.nam) // not chinmay
+// let  g = {
+//     nam:"chinmay",
+//     age:30,
+//     display:()=>{
+//         console.log("welcome "+this.nam)
+//         let  greet = ()=>{
+//             console.log("welcome "+this.nam) // not chinmay
 
-        }
-        greet()
+//         }
+//         greet()
 
-    }
-
-}
-g.display()
+//     }
+// }
+// g.display()
 
 // arrowfunction and function expression/functionExpression

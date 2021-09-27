@@ -55,7 +55,7 @@
 // for (let i = 0; i < kk.length; i++){
 
 //     if ((i != 0)&&(i != 1)&&(i != 2)&&(i != 3)&&(i != kk.length-1)){                                 // kk[i] used when perform on elements and index value(i) used when we perform on index 
-        
+
 //         //rkk = kk[i] + rkk
 //         rkk = rkk + kk[i] 
 
@@ -93,12 +93,13 @@
 
 
 // remove duplicate elements from the arrey
-let arr = [ 12,34,12,44,34,12,45,34,57]
+
+let arr = [12, 34, 12, 44, 34, 12, 45, 34, 57]
 
 let unarr = [];
 
-for(let i = 0; i<arr.length; i++){
-    if(!unarr.includes(arr[i])){
+for (let i = 0; i < arr.length; i++) {
+    if (!unarr.includes(arr[i])) {
         unarr.push(arr[i])
     }
 }
@@ -110,15 +111,17 @@ console.log(unarr)
 
 
 // remove duplicate elements from the arrey
-let arr = [ 15,66,88,12,66,57,88,15]
 
-let unarr = [];   
 
-for(let i = 0; i<arr.length; i++){
-   
-    if(unarr.indexOf(arr[i])==arr.indexOf(unarr[i])){
+let arr = [15, 66, 88, 12, 66, 57, 88, 15]
+
+let unarr = [];
+
+for (let i = 0; i < arr.length; i++) {
+
+    if (unarr.indexOf(arr[i]) == arr.indexOf(unarr[i])) {
         unarr.push(arr[i])
-    }                                                   
+    }
 }
 console.log(unarr)
 
@@ -128,16 +131,16 @@ console.log(unarr)
 
 
 
-var unique =  arr.filter(getunique)
+var unique = arr.filter(getunique)
 
-function getunique(el,index,arrey){
-    if(arrey.indexOf(el)== index){
-    return true;
-    
-}
-else {
-    return false
-}
+function getunique(el, index, arrey) {
+    if (arrey.indexOf(el) == index) {
+        return true;
+
+    }
+    else {
+        return false
+    }
 }
 console.log(unique)
 
@@ -148,11 +151,11 @@ console.log(unique)
 
 
 
-let arr = [ 15,66,88,12,66,57,88,15]
-let unique =  arr.filter((el,index,arrey)=>{
+let arr = [15, 66, 88, 12, 66, 57, 88, 15]
+let unique = arr.filter((el, index, arrey) => {
 
-    if(arrey.indexOf(el)== index){
-         return true;
+    if (arrey.indexOf(el) == index) {
+        return true;
     }
 })
 console.log(unique)

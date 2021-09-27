@@ -2,8 +2,8 @@
 
 let names = ['krishna-jambud','avi-shreepur','swapnil-baramati']
 let regex = /shreepur/
-console.log(regex.test(names))         // true
-
+//console.log(regex.test(names))         // true
+console.log(regex.test(names[0]))    // false
 
 // e.g. used test()
 
@@ -13,15 +13,36 @@ let x = names.filter((el,ind,arr)=>{
 console.log(x)     // [ 'avi-shreepur' ]
 
 
-// 5). 
+// 5). start with (^)
+
+// 6). start and end with (^ $)   
+
+// its also restrict character length and character type which we have start with and which have ends with
+
+// 7). dots(indicates characters quantity)(...    means 3 characters)
+
+// multipal dots indicated by ( .{no. of dots})
+
+// 8). paterrns []
+
+// 9). multiple paterrns  [ ] [ ] [ ]
+
+// here first block each characters refers to the second block characters pattern and its referce to the third block pattern
+
+// first block means its compulsory pattern 
+// second block means its optional if in it have multipal characters. in second block one of them character must follow the pattern with forst block
 
 
+// 10).  \d  (means have range from 0 to 9)  = [0-9] = [\d]
+
+// 11).  [ ^  ]          means when (startwith)  ^ sign inside the square braket  THAT means That PATTERN NOT START WITH
 
 
+// 12).  \D   (means not have range from 0 to 9)  = [^0-9] = [^\d] = [\D]
 
+// 13).  \w   (means have range  [a-z, A-Z, 0-9, _ ])
 
-
-
+// 14).  \W   (means not have range   [^a-z, A-Z, 0-9, _ ]) = [^a-z, A-Z, 0-9, _ ] = [^\w] =[\W]
 
 
 

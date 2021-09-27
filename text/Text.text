@@ -48,3 +48,15 @@ https://github.com/Minskoleopc/Minskole-3
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+ANY LOCAL PROJECT SETUP ON OUR LOCAL
+
+yarn install /  npm install
+yarn                /  npm run dev        (to th up project in local (continously we need to do this))
+
+
+for the angular project
+
+npm install -g @angular/cli

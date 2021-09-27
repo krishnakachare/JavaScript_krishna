@@ -9,42 +9,45 @@ let aee = {
     age: 12,
     rollNumber: 12
 }
+
+
+console.log(aee.hasOwnProperty('firstName'))
 // C R U D
 // Dot notation 
 
 // Retrive the value
 //objName.property
-console.log(aee.firstName)
-console.log(aee.age)
+// console.log(aee.firstName)
+// console.log(aee.age)
 
 // Bracket notation
-console.log(aee['firstName'])
-console.log(aee['age'])
+// console.log(aee['firstName'])
+// console.log(aee['age'])
 
 // Update the value of property 
-aee.age = 30
-aee['age'] = 33
-console.log(aee)
+// aee.age = 30
+// aee['age'] = 33
+// console.log(aee)
 
 // Adding the value 
 
-aee.language = "Marathi"
-aee['address'] = "B-69"
-console.log(aee)
+// aee.language = "Marathi"
+// aee['address'] = "B-69"
+// console.log(aee)
 
 // dele 
 
-delete aee.address
-console.log(aee)
+// delete aee.address
+// console.log(aee)
 
 // for in 
 // dot notation does not in loop
 
 
-for (let key in aee) {
-    console.log(key, aee[key])
-}
-console.log(aee.hasOwnProperty('firstNam'))
+// for (let key in aee) {
+//     console.log(key, aee[key])
+// }
+console.log(aee.hasOwnProperty('firstName'))
 
 
 // ------ 
