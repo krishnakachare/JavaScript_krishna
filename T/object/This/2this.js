@@ -33,7 +33,7 @@
 
 // let zz1 = counter.next  // in zz1 stores property next value   and  which is a function and
 // AND this time THIS keywords not focused on counter object its seperated from counter object
-// when this have not any object referance then its refers to global (window) object and its (this) valu is window 
+// when this have not any object referance then its refers to global (window) object and its (this) value is window 
 
 
 

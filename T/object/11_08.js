@@ -1,4 +1,4 @@
-// ${}  we can print variable(operation) values in backtiks    ( no. of variables = no. of ${})
+// ${}  we can print variable(operation) values in backtiks    ( no. of variables = no. of ${})  [ place holder ]
 // actual thing is memory and particular memory we can called as object
 // class = User defined data type  ( our made data type )
 
@@ -85,6 +85,12 @@ let students = [
 //      }
 //  }
 
+//  for(let i =0; i < students.length; i++){
+//     //console.log((students[i].fsub.indexOf('thermo')>=0))            // false   false   true
+//      if(students[i].fsub.includes('thermo')){
+//          console.log(students[i].firstname)                           // akshay
+//      }
+//  }
 
 
 

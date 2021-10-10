@@ -40,11 +40,9 @@
 //         this.fullname = a         // its printed in object  e.g fullname : 'krishna'
 //         // this means current calling object
 //     }
-
 //     setAdhar(A){
 //         this.Adharno = A
 //     }
-
 // }
 
 // let kk = new student()

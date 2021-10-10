@@ -3,30 +3,30 @@
 
 
 
-// // MADE ARRAY (object) BY TWO DIFFERENT WAYT  (AND we can apply all arrays properties and methods)
+// // MADE ARRAY (object) BY TWO DIFFERENT WAY  (AND we can apply all arrays properties and methods)
 
 // // 1.
 // //let names = ['vishwajit','avi','swapnil','krishna']
 
 // // 2.
-// let names = new Array(4)      // 4 is array length        (made object by using inbuild Array class)
+ let names = new Array(4)      // 4 is array length        (made object by using inbuild Array class)
 // names[0] = 'vishwajit'
 // names[1] = 'avi'
 // names[2] = 'swapnil'
 // names[3] = 'krishna'
 //console.log(names)         // [ 'vishwajit', 'avi', 'swapnil', 'krishna' ]
 
-// for(let i = 0; i < names.length; i++){
+for(let i = 0; i < names.length; i++){
 
-//     //console.log(names[i])
-//     let object = names[i]
+    //console.log(names[i])
+    let object = names[i]
 
-//     for (let key in object){
-//     //console.log(key)
-//     console.log(key,object[key])
+    for (let key in object){
+    //console.log(key)
+    console.log(key,object[key])
 
-//     }
-// }
+    }
+}
 
 
 // NOTE == Array and string also a object and here keys are index values and values are elements

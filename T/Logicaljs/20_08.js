@@ -73,7 +73,7 @@
 
 // //let max = arr[0]
 // let max = 0
-// let min = arr[5]     // 1
+// let min = 0//arr[5]     // 1
 
 // for (let i = 0; i < arr.length; i++){
 
@@ -90,75 +90,115 @@
 
 //--------------------------------------------------------------------------------------------
 
+//Q. remove duplicate elements from the arrey
 
+// let arr = [12, 34, 12, 44, 34, 12, 45, 34, 57]
 
-// remove duplicate elements from the arrey
+// let unarr = [];
 
-let arr = [12, 34, 12, 44, 34, 12, 45, 34, 57]
+// for (let i = 0; i < arr.length; i++) {
+//     if (!unarr.includes(arr[i])) {
+//         unarr.push(arr[i])
+//     }
+// }
+// console.log(unarr)     // [ 12, 34, 44, 45, 57 ]
 
-let unarr = [];
-
-for (let i = 0; i < arr.length; i++) {
-    if (!unarr.includes(arr[i])) {
-        unarr.push(arr[i])
-    }
-}
-console.log(unarr)
-
-
-
-
-
+//----------------------------------------------------------------------------------
 
 // remove duplicate elements from the arrey
 
+// let arr = [15, 66, 88, 12, 66, 57, 88, 15]
+// let unarr = [];
+// for (let i = 0; i < arr.length; i++) {
+//     if (unarr.indexOf(arr[i]) == arr.indexOf(unarr[i])) {
+//         unarr.push(arr[i])
+//     }
+// }
+// console.log(unarr)      // [ 15, 66, 88, 12, 57 ]
 
-let arr = [15, 66, 88, 12, 66, 57, 88, 15]
+//-------------------------------------------------------------------------
+// let arr = [15, 66, 88, 12, 66, 57, 88, 15]
+// var unique = arr.filter(getunique)
 
-let unarr = [];
+// function getunique(el, index, arrey) {
+//     if (arrey.indexOf(el) == index) {
+//         return true;
+//     }
+//     else {
+//         return false
+//     }
+// }
+// console.log(unique)       // [ 15, 66, 88, 12, 57 ]
 
-for (let i = 0; i < arr.length; i++) {
+//==============================================================================================================
 
-    if (unarr.indexOf(arr[i]) == arr.indexOf(unarr[i])) {
-        unarr.push(arr[i])
-    }
-}
-console.log(unarr)
+// multiple occurance of index of method
 
+// let kk = [1,1,2,2,2]
+// By default index of method find the first occurance of element and return its index no.
 
+// let indexNo = kk.indexOf(1)
+// console.log(indexNo)         // 0
+//----------------------------------------------------------
+//// second occurence
 
+// let indexNo = kk.indexOf(1,kk.indexOf(1)+1)
+// console.log(indexNo)  // 1
+//----------------------------------------------------------
+//// Third occurance
 
+// let indexNo = kk.indexOf(1,kk.indexOf(1)+2)
+// console.log(indexNo)  // -1
 
-
-
-var unique = arr.filter(getunique)
-
-function getunique(el, index, arrey) {
-    if (arrey.indexOf(el) == index) {
-        return true;
-
-    }
-    else {
-        return false
-    }
-}
-console.log(unique)
-
-
-
-
-
-
+// let indexNo = kk.indexOf(2,kk.indexOf(2)+2)
+// console.log(indexNo)  // 4
 
 
-let arr = [15, 66, 88, 12, 66, 57, 88, 15]
-let unique = arr.filter((el, index, arrey) => {
+//----------------------------------------------------------------------------------------------------------------
 
-    if (arrey.indexOf(el) == index) {
-        return true;
-    }
-})
-console.log(unique)
+// Q. collect unique from duplicate elements
+
+// let arr = [15, 15, 66, 88, 88, 88,]
+
+// let unique = arr.filter((el, index, arrey) => {
+//     return ((arrey.indexOf(el,arrey.indexOf(el)+1) == index))         // used second occurance
+// })
+// console.log(unique)  // [ 15, 88 ]
+
+//----------------------------------------------------------------------------------------------------
+
+// example 2.
+
+// let arr = [15, 15, 15, 15, 66, 3, 9, 88, 88, 88, 88, 0, 0, 0, 0, 0]
+// let unique = arr.filter((el, index, arrey) => {
+//     return ((arrey.indexOf(el, arrey.indexOf(el) + 1) == index))
+// })
+// console.log(unique)   // [ 15, 88, 0 ]
+
+
+// example 3.
+
+// let arr = [1, 1, 2, 3, 5, 4, 5, 5, 4, 2]
+// let unique = arr.filter((el, index, arrey) => {
+//     return ((arrey.indexOf(el, arrey.indexOf(el) + 1) == index))
+// })          // compaired with  current index with the second occurance of index
+// console.log(unique)   // [ 1, 5, 4, 2 ]
+
+//=================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

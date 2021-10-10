@@ -99,3 +99,34 @@
 // let z = lang.toUpperCase().toLowerCase().length
 // console.log(z)     //  7     we can apply methods or property with dot when we know return type or datatype where we apply it
 // ' ' or " "  (space) consider as a string
+
+
+
+
+//==================================================================================================================
+
+
+
+
+// // let lastName = "chinmayhhsdfdsfsdfs"
+// // //  0  1  2  3  4  5  6 7 8
+// // //  c  h  i  n  m  a  y h h
+
+// // let kl = lastName.indexOf('h') 
+// // console.log(kl)
+
+// //--------------------------------
+
+// // let onew = "ammoml"
+
+// // // second occurence
+
+// // let r = onew.indexOf('m',onew.indexOf('m')+1)          // SECOND OCCURANCE
+
+// // //------------------------------------
+
+// // let r = onew.indexOf('m',onew.indexOf('m',onew.indexOf('m')+1+1))     // THIRED OCCURANCE
+
+
+// //"abc".indexOf('char',postion)
+// //"cbnn".lastindexOf('a')

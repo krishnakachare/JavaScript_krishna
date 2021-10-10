@@ -251,6 +251,10 @@
 
 // //------------------------------------->
 
+//==============================================================================================================
+
+
+
 // // let lastName = "chinmayhhsdfdsfsdfs"
 // // //  0  1  2  3  4  5  6 7 8
 // // //  c  h  i  n  m  a  y h h
@@ -264,15 +268,20 @@
 
 // // // second occurence
 
-// // let r = onew.indexOf('m',onew.indexOf('m')+1)
+// // let r = onew.indexOf('m',onew.indexOf('m')+1)          // SECOND OCCURANCE
 
 // // //------------------------------------
 
-// // let r = onew.indexOf('m',onew.indexOf('m',onew.indexOf('m')+1+1))
+// // let r = onew.indexOf('m',onew.indexOf('m',onew.indexOf('m')+1+1))     // THIRED OCCURANCE
 
 
 // //"abc".indexOf('char',postion)
 // //"cbnn".lastindexOf('a')
+
+
+
+
+//============================================================
 
 // let k = 'amomolmhh'
 // let j = []
@@ -307,92 +316,121 @@
 
 // indcludes
 
-let userFruit = "Apple".toLowerCase()
-let fruitss = "apple mango banana grapes chiku"
+// let userFruit = "Apple".toLowerCase()
+// let fruitss = "apple mango banana grapes chiku"
 
-if(fruitss.includes(userFruit)){
-    console.log('Fruit available')
-}
-else{
-    console.log('fruit not available')
-}
+// if(fruitss.includes(userFruit)){
+//     console.log('Fruit available')
+// }
+// else{
+//     console.log('fruit not available')
+// }
 
-// 
+// // 
 
-let  flower2 = " rose lily "
-console.log(flower2.length)
-console.log(flower2.trim().length)
-
- 
-let  flower4 = " rose lily "
-console.log(flower4.length)
-console.log(flower4.trimRight().length)
+// let  flower2 = " rose lily "
+// console.log(flower2.length)
+// console.log(flower2.trim().length)
 
 
-let  flower3 = " rose lily "
-console.log(flower3.length)
-console.log(flower3.trimLeft().length)
-
-let n = " chinmaya deshpande "
-console.log(n.trim())   //"chinmay deshpande"
-console.log(n.trim().split(' ')) // ["chinmay","deshpande"]
-console.log(n.trim().split(' ').join("")) //['chinmaydeshpande']
+// let  flower4 = " rose lily "
+// console.log(flower4.length)
+// console.log(flower4.trimRight().length)
 
 
-//------------------------------------------->
-//indexOf  , includes , trim  , replace
+// let  flower3 = " rose lily "
+// console.log(flower3.length)
+// console.log(flower3.trimLeft().length)
 
-let lan = "I am learning javascript"
-let rf = lan.replace('javascript','python')
-console.log(rf)
+// let n = " chinmaya deshpande "
+// console.log(n.trim())   //"chinmay deshpande"
+// console.log(n.trim().split(' ')) // ["chinmay","deshpande"]
+// console.log(n.trim().split(' ').join("")) //['chinmaydeshpande']
 
 
-let lan2 = "I am learning javascript and i will search job in javascript"
-// let reee = lan2.replace('javascript','python')
-// console.log(reee)
-lan2 = lan2.split(' ') 
-console.log(lan2)
+// //------------------------------------------->
+// //indexOf  , includes , trim  , replace
 
-for(let i = 0 ; i < lan2.length ; i++){
-    if(lan2[i] === "javascript"){
-        lan2[i] = "python"
-    }
-}
-console.log(lan2.join(' '))
+// let lan = "I am learning javascript"
+// let rf = lan.replace('javascript','python')
+// console.log(rf)
+
+
+// let lan2 = "I am learning javascript and i will search job in javascript"
+// // let reee = lan2.replace('javascript','python')
+// // console.log(reee)
+// lan2 = lan2.split(' ') 
+// console.log(lan2)
+
+// for(let i = 0 ; i < lan2.length ; i++){
+//     if(lan2[i] === "javascript"){
+//         lan2[i] = "python"
+//     }
+// }
+// console.log(lan2.join(' '))
 
 
 // ---------------------->
-let bna = "chinmay"
-console.log(bna.repeat(5))
-let hhh =  "5a4b3c2e1f"
-//"aaaaabbbbcccef"
-let ns = hhh.split("")
-let hhhh = ""
+// let bna = "chinmay"
+// console.log(bna.repeat(5))
+// let hhh =  "5a4b3c2e1f"
+// //"aaaaabbbbcccef"
+// let ns = hhh.split("")
+// let hhhh = ""
 //'a'.repeat(5)
 
 // Number 
 //'b'.repeat(2) // 'bb'
 
-console.log(Number('5'))
-console.log(Number('C'))
-console.log(ns)
+// console.log(Number('5'))
+// console.log(Number('C'))
+// console.log(ns)
 
-for(let i = 0 ; i < ns.length ; i++){
-    if(Number(ns[i])){
-        hhhh = hhhh + ns[i+1].repeat(Number(ns[i]))
+// for(let i = 0 ; i < ns.length ; i++){
+//     if(Number(ns[i])){
+//         hhhh = hhhh + ns[i+1].repeat(Number(ns[i]))
+//     }
+// }
+// console.log(hhhh)
+
+let k = "aabb"
+//"5a4b3c2e1f"
+let hhhh = ''
+for (let i = 0; i < k.length; i++) {
+    let count = 0
+    let al = ''
+    if (k[i] == k[i + 1]) {
+
+        count++
+        
+        
+
+        // if (Number(k[i])) {
+        //     hhhh = hhhh + al.repeat(Number(k[i]))
+        // }
+    } else {
+        al=al+(k[i])
+        
+        count = 0
+        
     }
+
+    hhhh = hhhh + al.repeat(Number(count))
+  
 }
 console.log(hhhh)
 
-let k = "aaaaabbbbccceef"
-//"5a4b3c2e1f"
+
+
+
+
 
 
 // charAt
 
-let lastName = "deshpande"
-console.log(lastName.charAt(2))
-console.log(lastName.charCodeAt(5))
+// let lastName = "deshpande"
+// console.log(lastName.charAt(2))
+// console.log(lastName.charCodeAt(5))
 
 
 

@@ -26,7 +26,7 @@ let ravi = {
 
 
 
-console.log(typeof (ravi.write))
+console.log(typeof (ravi.write))   // function
 
 
 

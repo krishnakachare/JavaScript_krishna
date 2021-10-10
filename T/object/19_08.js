@@ -105,6 +105,7 @@
 
 
 ///////////////////////////////////  LEXICAL SCOPE   /////////////////////////////////////////////////
+
 // child function can access all thing(parameters/variables) which have parent function is called lexical scope
 
 // function  addA(x,y){
@@ -131,6 +132,9 @@
 // addA(12,13)
 
 
+
+
+// CLOSURES
 
 
 
