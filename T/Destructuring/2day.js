@@ -1,62 +1,94 @@
-let kk = {
-    fullName: 'Krishna',
-    lastName: 'kachare',
-    age: 26,
-    dost: [
-        {
-            name1: 'ravi',
-            skills: ["a", 'b']
-        },
-        {
-            name2: 'swapnil',
-            f:{
-                k:'krishna'
-            }
-        }
-    ],
-    skill: ['js', 'paython', 'css', 'html']
-}
-kk.skill[kk.skill.length] = 'java'
-//console.log(kk.skill)               //  [ 'js', 'paython', 'css', 'html', 'java' ]
-kk.skill[2] = 'java'
-//console.log(kk.skill)               //  [ 'js', 'paython', 'java', 'html', 'java' ]
-// Array is also object when element is present in that index value then its update or element is absent in that index value then its added
+// let arr=['a','b','c'] 
+// arr[arr.length] = 'd'
+// console.log(arr)
+// arr[1] = 'x'
+// console.log(arr)
 
-var {age,dost,skill} = kk
-// console.log(age,dost,skill)
- var {age,dost:[a,b],skill} = kk
-// console.log(age,a,b,skill)
-var {age,dost:[a,b],skill:[x,y]} = kk
+// let n = 'sanchita'
+// n[0]='a'
+// console.log(n[0])
+// console.log(n)
+// console.log(typeof(n))
+// // Here(string) we cant update, add elements
+
+// Object destructuring
+
+// let kk = {
+//     fullName: 'Krishna',
+//     lastName: 'kachare',
+//     age: 26,
+//     dost: [
+//         {
+//             name1: 'ravi',
+//             skills: ["reading", 'writing']
+//         },
+//         {
+//             name2: 'swapnil',
+//             f:{
+//                 f1:'vishvajit'
+//             }
+//         }
+//     ],
+//     skill: ['js', 'paython', 'css', 'html']
+// }
+// kk.skill[kk.skill.length] = 'java'
+// //console.log(kk.skill)               //  [ 'js', 'paython', 'css', 'html', 'java' ]
+// kk.skill[2] = 'java'
+// //console.log(kk.skill)               //  [ 'js', 'paython', 'java', 'html', 'java' ]
+// // Array is also object when element is present in that index value then its update or element is absent in that index value then its added
+
+// var {age,dost,skill} = kk
+// // console.log(age,dost,skill)
+//  var {age,dost:[a,b],skill} = kk
+// // console.log(age,a,b,skill)
+// var {age,dost:[a,b],skill:[x,y]} = kk
 // console.log(a,b,x,y)
-// var {dost:[a:{skill:[a]}]} = kk
-console.log(a)
-
-// PROBLEM = can we destructure complex structures  ?
-
-
+// var {dost:[{skills:[a,b]},z]} = kk
+// console.log(a,b)                          // reading writing
+// var {dost:[a,{f:{f1}}]} = kk
+// console.log(f1)                 // vishvajit
 
 
 // CHECK WITH LESS COMPLEX STRUCTURE
 
-let person = {
-    
-}
+// let person = {
+//     fullName: 'krishna',
+//     skill:['a','b','c'],
+//     friends:{
+//         fName:'ravi',
+//         skill:['play','watch']
+//     }  
+// }
+// var {fullName:f,skill:s,friends:fr} = person
+// console.log(fullName,skill,friends)
+
+// console.log(f,s,fr)                                     // krishna [ 'a', 'b', 'c' ] { fName: 'ravi', skill: [ 'play', 'watch' ] }
+// // f,s,fr we called as custom names
+
+// // actual use or meaning of custom name
+
+// var {skill:[n,p,q],friends} = person
+// // console.log(n,p,q,friends)
+// var {skill:[n,p,q],friends:{fName}} = person
+// // console.log(n,p,q,fName)
+// var {skill:[n,p,q],friends:{fName,skill:[t,t1]}} = person      // we not be used same variables
+// console.log(t,t1)  // play watch
 
 
 
+// Array destructuring
+
+// let arr = [1,2,3,4,5,[6,7]]
+// let [a,b,c,d,e,[x,y]] = arr             // here not need to use custom name(we got error)    // here new memory made
+// console.log(a,b,x,y)         // 1,2,6,7
 
 
 
+// String Destructuring
 
-
-
-
-
-
-
-
-
-
+// let str = 'krishna'
+// let [a,b] = str
+// console.log(a,b)     // k r
 
 
 
@@ -283,3 +315,47 @@ let person = {
 // arr2 = [1,2,[2,3],4,5]
 // console.log(arr2[2][arr2[2].length-1])
 // let [ab,bc,cd,de,ef,fg]= [1,2,[2,3],4,5].flat()
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let names = ["chinmay","sameer","ramesh",{firstName:"chinmaya",lastName:"deshpande"}]
+// let [a,b,c,{firstName,lastName}] = names
+// console.log(firstName)
+// console.log(lastName)
+
+
+// let  humana = {
+//     fullName:"chinmay deshpande",
+//     skills:["python","javascript","css"],
+//     family:{
+//             father:"shirish",
+//             mother:"kanchan"
+//     }
+// }
+
+// let {fullName,skills:[skillOne,skillTwo,skillThree],family:{father,mother}} = humana
+// console.log(fullName,skillOne,skillTwo,skillThree,father,mother)
+
+// let  humana = {
+//     fullName:"chinmay deshpande",
+//     skills:[{age:23,roll:34},"javascript","css"],
+//     family:{
+//             father:"shirish",
+//             mother:"kanchan"
+//     }
+// }
+// let {skills:{age,roll}} = humana
+
+
+//----------------------------------------> 
+

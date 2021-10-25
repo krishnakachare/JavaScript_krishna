@@ -1,3 +1,59 @@
+// Refactoring of code = (Reduce repeated code) make as code utility and for changes make small small fuctions and pass in utility code
+// loosly coupled code
+
+// let arr = [()=>console.log('kk'),'kk2']
+// arr[0]()                                 // kk
+// console.log(arr[0])                      // [Function (anonymous)]
+// console.log(arr[0]())    // kk    // undefined
+
+
+// let obj = {
+//     fname:'krishna',
+//     method:()=>
+//         console.log('hello')
+
+// }
+// console.log(obj.method)    // [Function: method]
+// obj.method()               // hello
+// console.log(obj.method())  // hello    // undefined
+
+
+
+// Function parameter pass as array and its return also array
+
+// let arg = [1, 2, 3, 4, 5]
+// function array(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = arr[i] + 1
+//     }
+//     return arr
+// }
+// array(arg)
+// console.log(arg)   // [ 2, 3, 4, 5, 6 ]
+
+
+// Object pass as parameter to function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // function declartion
 // // function add(){
 // //     console.log('Hello')
@@ -306,38 +362,37 @@
 // let c= tenPer(ages)
 // console.log(c)
 
-let ages = [22,33,34,55,66,77] 
+// let ages = [22,33,34,55,66,77] 
 
-let bills = [1000,34000,444,5555,6666]
+// let bills = [1000,34000,444,5555,6666]
 
-function returnArray(arr,fn){
-    let barr = []
-    for(let i = 0 ; i < arr.length ;i++){
-        barr.push(fn(arr[i]))
-    }
-    return barr
-}
-
-
-function ck(cssSelector){
-    cy.get(cssSelector).click()
-}
+// function returnArray(arr,fn){
+//     let barr = []
+//     for(let i = 0 ; i < arr.length ;i++){
+//         barr.push(fn(arr[i]))
+//     }
+//     return barr
+// }
 
 
-
-let birthyear = (el)=> 2021-el
-let tenPer = (el)=> el * 0.10
-let twoPlus = (el) => el +2
-let discout10 = (el) => el - tenPer(el)
+// function ck(cssSelector){
+//     cy.get(cssSelector).click()
+// }
 
 
-let birthyeara = returnArray(ages,birthyear)
-let tw = returnArray(ages,twoPlus)
-let ee = returnArray(ages,tenPer)
-let eebills = returnArray(bills,discout10)
 
-console.log(birthyeara,tw,ee)
-console.log(eebills)
+// let birthyear = (el)=> 2021-el
+// let tenPer = (el)=> el * 0.10
+// let twoPlus = (el) => el +2
+// let discout10 = (el) => el - tenPer(el)
 
 
-bills = [1000,34000,444,5555,6666]
+// let birthyeara = returnArray(ages,birthyear)
+// let tw = returnArray(ages,twoPlus)
+// let ee = returnArray(ages,tenPer)
+// let eebills = returnArray(bills,discout10)
+
+// console.log(birthyeara,tw,ee)
+// console.log(eebills)
+
+// bills = [1000,34000,444,5555,6666]

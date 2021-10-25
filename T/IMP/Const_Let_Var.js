@@ -207,12 +207,32 @@
 // console.log(z)  // 40
 
 
+//=============================================================================================================
+// we cant redecleared variables using let keyword
+// let a = 10
+// let a = 15
+// console.log(a)    // SyntaxError: Identifier 'a' has already been declared
 
 
 
+// we can redecleared variables using var keyword and its gives updated value
+// var a = 10
+// var a = 15
+
+// console.log(a)  // 15
+
+//=================================================================================================================
+
+// let num = 123
+// console.log(typeof(num))  // number
+// let str = String(num)     // 123
+// console.log(typeof(str))  // string
 
 
-
+let str = '123'
+console.log(typeof(str))    // string
+let num = Number(str)
+console.log(typeof(num))    // number
 
 
 

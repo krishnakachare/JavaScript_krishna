@@ -1,5 +1,5 @@
 // Destructuring = Required starting portion (can achive required portion of an object) of object getting that for used destructuring
-// Types of destructuring = 1) Array destructuring  2) Object destructuring
+// Types of destructuring = 1) Array destructuring  2) Object destructuring  3) String destructuring
 
 // let numbers = [1,2,3,4]
 // numbers[99] = 0

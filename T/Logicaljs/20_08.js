@@ -86,6 +86,18 @@
 // console.log(max)    // 88
 // console.log(min)    // -3
 
+// NOTE
+
+// first find the given arrays range like maximum value in array and minimum value in array
+// then intial values of max. is minimum (less) than maximum value in array and min. is the maximum(greater) than minimum value in array
+// when we cant find max. and min. values in array (when array is big) then by default set max. value is zero (let max = 0)
+// And the for min. value first observe in array there is negative value is present,  when any negative value is present then set intial min. value is zero (let min = 0)
+// But in array there is not any negative value present then set any value is present in array like (let min = (arrays any value))
+// For maximum value ==>  if(arr[i] > max){}
+// For minimum value ==>  if(arr[i] < min){}
+
+
+
 
 
 //--------------------------------------------------------------------------------------------

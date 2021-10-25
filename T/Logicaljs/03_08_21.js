@@ -54,7 +54,7 @@
 // function cal(zz){
 //     let sentence2 = ' '
 //     for (let i = 0; i < zz.length; i++){
-        
+
 //         if(i == 0){
 //            sentence2 = sentence2 + zz[i].toUpperCase()
 //         }
@@ -212,7 +212,7 @@
 
 // for(let i=0; i<sss.length; i++){
 //   if(sss[i] === Number(sss[i])){
-   
+
 //     numarr.push(sss[i])
 //   }
 //   else{
@@ -267,7 +267,275 @@
 
 
 
+// let email = 'krishnakachare2@gmail.com'
+// let nam = 'krishna kachare'
+// //email =email.split('')
+// let req = ''
 
+//     for (let j = 0; j < nam.length; j++) {
+//         if (email.includes(nam[j]) ) {
+//             req = req + nam[j]
+//         }
+//     }
+
+// console.log(req)
+
+
+
+//==============================================================
+
+
+// let email = 'krishnakachare2@gmail.com'
+// let nam = 'krishna'
+// let req = ''
+// for (let j = 0; j < nam.length; j++) {
+//     for (let i = 0; i < email.length; i++) {
+//         if ((nam[j]) !== email[i]) {
+//             break;
+//         }
+//     }
+//     req = req + nam[j]
+// }
+// console.log(req)
+
+
+
+//=============================================================================================
+
+
+// let email = 'krishnakachare2@gmail.com'
+// let nam = 'krishna'
+// let req = ''
+// for (let j = 0; j < email.length; j++) {
+//     for (let i = 0; i < nam.length; i++) {
+//         if ((nam[j]) == email[i]) {
+//             req = req + nam[j]
+//         }
+//     }
+
+// }
+// console.log(req)
+
+//========================================================================================================
+
+// // How we recive multiple user inputs
+
+// let arr = []
+// let i = 0
+// while (i <= 3) {
+//     i++
+//     let userIn = prompt('Enter Input')
+//     if (Number(userIn)) {
+//         let n = Number(userIn)
+//         arr.push(n)
+//         console.log(typeof (n))
+//         //console.log(arr)
+//     } else {
+//         arr.push(userIn)
+//         // console.log(typeof (userIn))
+//         //console.log(arr)
+//     }
+//     console.log(arr)
+// }
+// //console.log(arr)
+
+//=============================================================================================================
+
+
+
+//==================================================
+
+
+// let a = [4, 56, 8, 9, 6, 6, 7]
+
+// let max = 0
+// let min = 8
+
+// for (let i = 0; i < a.length; i++) {
+//     if (a[i] > max) {
+//         max = a[i]
+//     }
+//      if (a[i] < min) {
+//         min = a[i]
+//     }
+// }
+// console.log(max)    // 56
+// console.log(min)    // 4
+
+
+//=======================================================
+
+// find prime numbers of given range like[ 0 to 10]
+// let arr = []
+// let i = 0
+// while (i <= 10) {    // can change your range
+//     prime(i)
+//     i++
+// }
+// console.log(arr)
+// function prime(n) {
+//     if (n < 2) return false             // particular condition return false that condition its ignore(skip) and other code will be run
+//     for (let i = 2; i < n; i++) {
+//         if (n % i === 0) {
+//             return false
+//         }
+//     }
+//     arr.push(n)         // after the filtter  its give specific code
+// }
+
+//----------------------------------------------------------------------------------------
+
+// // Find prime numbers of given range like [ 0 to 10]
+
+// let arr = []
+// function prime(n) {
+//     if (n < 2) return false             
+//     for (let j = 2; j < n; j++) {
+//         if (n % j === 0) {
+//             return false
+//         }
+//     }
+//     arr.push(n)         
+// }
+
+// let i = 0
+// while (i <= 10) {    
+//     prime(i)
+//     i++
+// }
+//  console.log(arr)   // [ 2, 3, 5, 7 ]
+
+//--------------------------------------------------------------------------
+
+// let count = 0
+
+// for (let j = 2; j <= 10; j++) {
+//     //console.log(j)    // 2 
+//     for (let i = 1; i <= j; i++) {   // 1 2
+//        // console.log(i)
+//         if (j % i == 0)
+//             count++
+//     }
+//     if (count == 2)
+//         console.log(j)  // 2 3
+//         count = 0
+// }
+//=========================================================================
+
+// let ra = 10
+
+// function prime() {
+// for (let i = 2; i < ra; i++) {
+
+//     for (let j = 1; j <= i; j++) {
+
+//        if(j%2 == 0){
+//         console.log(j)
+
+//        }
+
+
+
+//     }
+// }
+
+// let count = 0
+// for (let i = 2; i < 10; i++) {
+//     // console.log(i)
+//     for (let j = 1; j <= i; j++) {
+
+//         if (i % j == 0) {
+
+//             count++
+//         }
+
+//     }
+//     if (count == 2) {
+//         console.log(i)
+//         count = 0
+//     }
+//     //console.log(count)
+// }
+
+// for (let j = 1; j <= i; j++) {
+
+//    if(j%2 == 0){
+//     console.log(j)
+
+//    }
+// }
+// }
+// prime()
+//============================================================================icici 18601207777
+// let count = 0
+// for (let i = 2; i <= 10; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         if (i % j == 0) {
+//             count++
+//         }
+//     }
+//     if (count == 2) {
+//         console.log(i)
+//     }
+//     count = 0
+// }
+
+
+//=======================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=====================================================================
+
+
+// let str = "Status of Order Detail ID: 93344 has been changed to Return Requested;ProductID: 142063;New Possible Status are: [];Order Status: ReturnRequested;REASON GIVEN: NO REASON;PreviousStatusID:6;NewStatusID:13;"
+// let req = ''
+// let flag = true
+// for (let i = 0; i < str.length; i++) {
+//     if (flag) {
+//         if (str[i] == ':') {
+//             flag = false
+//         }
+//         req = req + str[i].bold()
+//     }
+//     else {
+//         if (str[i] == ';') {
+//             flag = true
+//         }
+//         req = req + str[i]
+//     }
+// }
+// //console.log(req)
+// document.write(req)
+// //document.write(str)
+
+//========================================================================================================
 
 
 

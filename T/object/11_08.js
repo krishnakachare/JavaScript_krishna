@@ -94,6 +94,50 @@ let students = [
 
 
 
+let studentA = [
+    {
+        firstName:"Pranjal",
+        age:21,
+        skills:["html","javascript","python","C","tableau"]
+    },
+    {
+        firstName:"Ranbir",
+        age:32,
+        skills:["javascript","c++","R programming"]
+    },
+    {
+        firstName:"sakshi",
+        age:28,
+        skills:["html","python","tableau","css","java"]
+    },
+    {
+        firstName:"Anjali",
+        age:24,
+        skills:["html","python","bootstrap","java"]
+    }
+    
+]
+
+
+// //name of people who knows tableau
+// for(let i=0;i<studentA.length;i++){
+//     let stud = studentA[i]
+//     //console.log(stud)
+//      if(stud["skills"].includes("tableau")){
+//       console.log(stud["firstName"])             // Pranjal     sakshi
+//      }
+
+// }
+
+// //number of peoples knows python
+// let count = 0
+// for(let i=0;i<studentA.length;i++){
+//     let stud = studentA[i]
+//      if(stud["skills"].includes("python")){
+//       count = count+1
+//      }
+// }
+// console.log("Number of peples who knows python ="+" " + count)      // Number of peples who knows python = 3
 
 
 
@@ -104,16 +148,41 @@ let students = [
 
 
 
+// Use the hasOwnProperty() method to check if an property exists in the own properties of an object.
+// Use the in operator to check if a property exists in both own properties and inherited properties of an object.
+// Compare the property with undefined to check if a property exists only when you are sure that the initial value of the property is not undefined.
 
 
 
 
+let incl = {
+    firstName:"Anjali",
+    firstNamee:'krishna',
+    age:24,
+    skills:["html","python","bootstrap","java"],
+    freinds:{
+        n1:'kk',
+        n2:'swapnil',
+        n3:'Avi',
+        n4:'vishwajit'
+    }
+}
 
 
+// if(incl['freinds'].hasOwnProperty('n1')){
+//     console.log(incl["firstNamee"])             //  krishna
+//    }
 
 
+//    if(incl.freinds.hasOwnProperty('n1')){
+//     console.log(incl["firstNamee"])             //  krishna
+//    }
 
-
+// Use "in" word
+   
+//    if('n1' in incl.freinds){
+//     console.log(incl["firstNamee"])             //  krishna
+//    }
 
 
 

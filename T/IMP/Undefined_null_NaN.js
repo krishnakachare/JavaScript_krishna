@@ -5,10 +5,11 @@
 
 //2. UNDEFINED
 
-// let kk
-// console.log(kk)            // undefined
-// console.log(typeof (kk))    // undefined
+let kk
+console.log(kk)            // undefined
+console.log(typeof (kk))    // undefined
 // Global object have property undefined and its initial value is undefined
+console.log(kk === undefined)
 
 //3. NULL
 
@@ -31,3 +32,5 @@
 // console.log(a*b)              // NaN
 // console.log(typeof(a*b))     // number
 // NaN is a global object property
+
+

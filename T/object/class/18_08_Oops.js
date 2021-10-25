@@ -106,26 +106,88 @@
 
 // CLASS EXTENDS  = Parent all properties and methods can access on child object
 
-class grandfather {
+// class grandfather {
 
-    constructor(gname,lastname){
-        this.grandfathername = gname
-        this.lastname = lastname
-    }
+//     constructor(gname,lastname){
+//         this.grandfathername = gname
+//         this.lastname = lastname
+//     }
 
-    walk(){
-        console.log('I can walk')
-    }
-}
+//     walk(){
+//         console.log('I can walk')
+//     }
+// }
 
-class father extends grandfather {
+// class father extends grandfather {
 
-    fname(){
+//     fname(){
 
-        console.log(this.lastname)
-    }
-}
+//         console.log(this.lastname)
+//     }
+// }
 
-let gopal = new grandfather('shankar','kachare')
-console.log(gopal.lastname)                          // kachare
-console.log(gopal.walk())
+// let gopal = new grandfather('shankar','kachare')
+// console.log(gopal.lastname)                          // kachare
+// console.log(gopal.walk())
+
+
+
+
+
+//======================================================================================================================
+
+// class person {
+//     constructor(Fname, lname) {
+//         this.FullName = Fname
+//         this.LastName = lname
+//     }
+// }
+
+// let kk = new person('amit', 'chikte')
+// console.log(kk)
+
+// let kk1 = new person('a', 'b')
+// console.log(kk1)
+
+
+// class gfather {
+//     constructor(gfname, gflname) {
+//         this.gfFullName = gfname
+//         this.gfLastName = gflname
+//     }
+//     walk() {
+//         console.log('im grandfather')
+//     }
+// }
+
+// class father extends gfather {
+//     constructor(gfname, gflname, fname, flname) {
+//         super(gfname, gflname)
+//         this.fFullName = fname
+//         this.fLastName = flname
+//     }
+//     talk() {
+//         console.log('im father')
+//         super.walk()
+//     }
+// }
+
+// class son extends father {
+//     constructor(gfname, gflname, fname, flname, sname, slname) {
+//         super(gfname, gflname, fname, flname)
+//         this.sFullName = sname
+//         this.sLastName = slname
+//     }
+//     sleep() {
+//         console.log('i am son')
+//         super.talk()
+//     }
+// }
+// let f = new son('a', 'b', 'c', 'd', 'e', 'f')
+// console.log(f)
+// f.sleep()
+
+
+
+
+

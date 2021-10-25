@@ -2,57 +2,57 @@
 // this = means current calling object
 
 
-// class student  {
-//     firstname = null
-//     age = null
-//     id = null
-// }
+class student  {
+    firstname = null
+    age = null
+    id = null
+}
 
 
-// // 1. Setting the object properties outside the class
+// 1. Setting the object properties outside the class
 
-// console.log(student)                 // [class student]
-// let krishna = new student()
-// console.log(krishna)                // student { firstname: null, age: null, id: null }
-// krishna['firstname'] = 'kachare'
-// krishna['id'] = 'oo7'
-// console.log(krishna)                // student { firstname: 'kachare', age: null, id: 'oo7' }
-
-
-// let swapnil = new student()
-// console.log(swapnil)               // student { firstname: null, age: null, id: null }
-// swapnil['language'] = 'marathi'
-// swapnil.firstname = 'swapnil'
-// swapnil.age = 26                   // we can use dot and braket notation for add, update, delete, fetching the properties
-// console.log(swapnil)               // student { firstname: 'swapnil', age: 26, id: null, language: 'marathi'}
-
-//// Here two objects (Memorys) are made for the two addresses (krishna  and swapnil)  wrt  class (blueprint).  we can create multipal object using class(blueprint or class structure)
+console.log(student)                 // [class student]
+let krishna = new student()
+console.log(krishna)                // student { firstname: null, age: null, id: null }
+krishna['firstname'] = 'kachare'
+krishna['id'] = 'oo7'
+console.log(krishna)                // student { firstname: 'kachare', age: null, id: 'oo7' }
 
 
-// // 2. Setting the properties using the function 
+let swapnil = new student()
+console.log(swapnil)               // student { firstname: null, age: null, id: null }
+swapnil['language'] = 'marathi'
+swapnil.firstname = 'swapnil'
+swapnil.age = 26                   // we can use dot and braket notation for add, update, delete, fetching the properties
+console.log(swapnil)               // student { firstname: 'swapnil', age: 26, id: null, language: 'marathi'}
 
-// class student  {
-//     firstname = null
-//     age = null
-//     id = null
+// Here two objects (Memorys) are made for the two addresses (krishna  and swapnil)  wrt  class (blueprint).  we can create multipal object using class(blueprint or class structure)
 
-//     setfullName(a){
-//         this.fullname = a         // its printed in object  e.g fullname : 'krishna'
-//         // this means current calling object
-//     }
-//     setAdhar(A){
-//         this.Adharno = A
-//     }
-// }
 
-// let kk = new student()
-// kk.setfullName('krishna')
-// console.log(kk)                          // student { firstname: null, age: null, id: null, fullname: 'krishna' }
+// 2. Setting the properties using the function 
 
-// let sm = new student()
-// sm.setfullName('swapnil')
-// sm.setAdhar(1111111111111111)
-// console.log(sm)                          // student {firstname: null, age: null, id: null, fullname: 'swapnil', Adharno: 1111111111111111 }
+class student  {
+    firstname = null
+    age = null
+    id = null
+
+    setfullName(a){
+        this.fullname = a         // its printed in object  e.g fullname : 'krishna'
+        // this means current calling object
+    }
+    setAdhar(A){
+        this.Adharno = A
+    }
+}
+
+let kk = new student()
+kk.setfullName('krishna')
+console.log(kk)                          // student { firstname: null, age: null, id: null, fullname: 'krishna' }
+
+let sm = new student()
+sm.setfullName('swapnil')
+sm.setAdhar(1111111111111111)
+console.log(sm)                          // student {firstname: null, age: null, id: null, fullname: 'swapnil', Adharno: 1111111111111111 }
 
 
 
