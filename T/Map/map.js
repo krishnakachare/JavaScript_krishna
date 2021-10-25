@@ -109,7 +109,7 @@
 
 // console.log(mapS.keys())       // [Map Iterator] {  }
 // console.log(mapS.values())     // [Map Iterator] {  }
-// console.log(mapS.entries())    // [Map Entries] {  }
+// console.log(mapS.entries())    // [Map Entries] {  }         // Return multidiamensional array
 
 // for(let kk of mapS.keys()){
 //     console.log(kk)
