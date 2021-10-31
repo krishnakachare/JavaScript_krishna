@@ -1,11 +1,12 @@
+
 // let arr=['a','b','c'] 
-// arr[arr.length] = 'd'
+// arr[arr.length] = 'd'  // [ 'a', 'b', 'c', 'd' ]     that index not have element then element added
 // console.log(arr)
 // arr[1] = 'x'
-// console.log(arr)
+// console.log(arr)      // [ 'a', 'x', 'c', 'd' ]    that index already have element then that element updated by new element
 
 // let n = 'sanchita'
-// n[0]='a'
+// n[8]='a'
 // console.log(n[0])
 // console.log(n)
 // console.log(typeof(n))
@@ -86,9 +87,10 @@
 
 // String Destructuring
 
-// let str = 'krishna'
-// let [a,b] = str
-// console.log(a,b)     // k r
+let str = 'krishna'
+let [a,b] = str
+console.log(a,b)     // k r
+console.log(typeof(a,b))  // string
 
 
 

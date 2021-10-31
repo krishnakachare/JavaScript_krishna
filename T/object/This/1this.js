@@ -1,4 +1,4 @@
-// this = current calling object 
+// this = current calling object    (Always referce to any object  OR its a object )
 
 let krishna = {
     fullName : 'krishna',
@@ -22,7 +22,7 @@ let ravi = {
 
 // let aa = ravi.write()               // i can write js and Java
 // krishna.write()             // i can write js and python
-// console.log(aa)          // undefined                                 // out of block it cant be access
+// console.log(aa)          // undefined                                 // not defined
 
 
 

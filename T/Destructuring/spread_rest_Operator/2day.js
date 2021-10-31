@@ -9,10 +9,12 @@
 // console.log(add(arr[0],arr[1],arr[2]))
 
 // // use spread operator
-// let arr = [1,2,3,4,5]
+// let arr = [1,'kk',{a:'kk'}]
 // console.log(...arr)                // 1 2 3 4 5
+
 // function add (a,b,c){
-//     return a+b+c
+//     console.log(typeof(c))
+//     return a
 // }
 // console.log(add(...arr))      // we spread array elements
 
@@ -48,9 +50,42 @@
 
 
 
+// Spread
+
+let o = [1,2,3]
+o = {
+    a:'kk'
+}
+o='kk'                      // we can spread only array and string  NOT Spread object
+function add (a,b,c){
+    console.log(typeof(c))    // for array each element have datatype which will be present after the spread
+    return a
+}
+console.log(add(...o)) 
 
 
 
+
+
+// Rest
+
+// function add (...arr){    
+//     console.log(typeof(arr))                  
+//     return arr.reduce((acc,el)=>acc+el)
+// }
+// console.log(add(1,2,3,4,5,6,7,8,8,9,0)) 
+
+// let a = [1, 2, 3, 4, 5]
+// a = {
+//     a: 10
+// }
+// a = 'krishna'
+// function add(...arr) {                            // convert all things (array,string,object, random multiple numbers) in ARRAY   at arrgument
+//     console.log(typeof (arr))
+//     console.log((arr))
+//     //return arr.reduce((acc,el)=>acc+el)
+// }
+// console.log(add(a))
 
 
 

@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 // Loops iteration 
 
 
@@ -110,7 +121,7 @@ let du = []
 // while(iaa <= 10){
 
 //     console.log(iaa)  // 0  1
-    
+
 //     iaa = iaa + 1 
 
 // }
@@ -148,3 +159,25 @@ let du = []
 // })
 // //[33,55]
 // console.log(uniqueChars)
+
+
+
+
+
+
+
+
+
+
+
+
+let arr = [1, 2, 3, 4, 5]
+for (let [key, val] of arr.entries()) {
+    console.log(key, val)
+}
+
+let kk = new Map(
+
+    [4, 1],
+    ['kk', 2])
+console.log(kk)

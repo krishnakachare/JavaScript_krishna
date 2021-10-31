@@ -1,16 +1,86 @@
+// var id = 100
+// let person = {
+//     id: 1,
+//     mail: "dinga@gmail.com",
+//     display() {
+
+//         console.log(this)
+//         console.log(typeof (this))
+//         console.log("wlcm" + this.id) //1
+//     }
+
+
+//     //  dinga =  ()=> {
+//     //     console.log(this)
+//     //     console.log(typeof (this))
+//     //     console.log("wlcm" + this.id)//100
+//     // }
+//     // dinga()
+
+// }
+// person.display()
 
 
 
+// var 
+// var n = 10
+
+// let win = {
+//     n: 'kk',
+//     vsc: {
+//         na: a,
+//         n:3,
+//         method:()=> {
+//             console.log(this.n)
+//             console.log(this)
+//         }
+//     }
+// }
+// a = win.n
+// console.log(win.vsc.na)   // undefined
+// win.vsc.method()
 
 
+// var id = 100
+// let person = {
+//     id: 1,
+//     mail: "dinga@gmail.com",
+//     hi: {
+//         a: 'hi'
+//     },
+//     display: function () {
+
+//         // console.log(this)
+//         // console.log(typeof(this))
+//         // console.log("wlcm" + this.id) //error
+
+//         dinga = function () {
+//             console.log(this)
+//             console.log(typeof (this))
+//             console.log("wlcm" + this.id)
+//             console.log('hello')
+//         }
+//         dinga()
+//     }
+// }
+// person.display()
 
 
+//------------------------------------------------------------------------------------------------------
+
+let obj = {
+    n:'kk',
+    method(){
+        console.log(this.n)
+    }
+}
 
 
+obj.method()
 
+// NOTE = Here in this new method writing syntax we by defalt use function decleration
 
-
-
+//------------------------------------------------------------------------------------------------------------
 
 
 
@@ -204,15 +274,17 @@
 
 //--------------------------------------------------->
 
-// var nam = "rohan"
+var nam = "rohan"
 
-// let  g = {
-//     nam:"chinmay",
-//     age:30,
-//     display:function(){
-//         console.log("welcome "+this.nam)
-//         function greet(){
-//             console.log("welcome "+this.nam) // not chinmay
+// let g = {
+//     nam: "chinmay",
+//     age: 30,
+//     display: function () {
+//         // console.log("welcome "+this.nam)
+//         let greet = () => {
+//             console.log(this)
+//             console.log(typeof (this))
+//             // console.log("welcome "+this.nam) // not chinmay
 //         }
 //         greet()
 //     }

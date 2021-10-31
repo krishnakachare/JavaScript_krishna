@@ -248,23 +248,47 @@
 
 
 
+//======================================================================================================
+
+
+// code for ascending and descending orders include negative no.
+
+// let arr = [1, 6, 3, -3, 1, 2, 0]
+// console.log(arr.sort())   
+// console.log(arr.reverse()) 
+
+// function order(...arr) {
+//     console.log(arr.sort())
+//     console.log(arr.reverse())
+
+// }
+// order(1, 6, 3, -3, 1, 2, 0)
 
 
 
+// let a = arr.sort((a, b) => {
+//     return a - b
 
+//     //console.log(a,b)
+// })
 
+// console.log(a)
 
+//==============================================================================
 
+// Find Max. and Min. value 
 
+// let arr = [88, 94, 1, 100, 2, 0, -22, -3, 101]
+// arr.sort((a, b) => a - b)
+// console.log(`Min.value ${arr[0]}`)
+// console.log(`Max.value ${arr[arr.length - 1]}`)
+//  console.log(arr)
+// console.log(Math.max.apply(null, arr))  // 101
+// console.log(Math.min.apply(null, arr))  // -22
 
+//======================================================================================
 
-
-
-
-
-
-
-
+// find PRIME NO.
 
 
 

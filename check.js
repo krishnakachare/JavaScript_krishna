@@ -280,6 +280,63 @@
 
 //----------------------------------------------------------------------------------
 
-let names = 'Sanchita Dhole'
-console.log(names.split(" ").reverse().join("   "))      // Dhole Sanchita
+// let names = 'Sanchita Dhole'
+// console.log(names.split(" ").reverse().join("   "))      // Dhole Sanchita
+
+//-------------------------------------------------------------------------------------------------
+
+function add() {
+
+    a = 3
+    console.log(a)
+}
+
+add()
+console.log(add())
+{
+    a = 3
+    console.log(a)
+}
+// Note = we can declear variable inside the function and also inside the block without using any keyword for the variable decleration
+// whenever variables defined with let, const, var and any method/function directly call then its altimatly call/defined on super object/WINDOW
+
+//------------------------------------------------------------------------------------------------------------------
+// var a
+// var n = 10
+
+// let win = {
+//     n: 'kk',
+//     vsc: {
+//         na: a,
+//         n:3,
+//         method:()=> {
+//             console.log(this.n)
+//         }
+//     }
+// }
+// a = win.n
+// console.log(win.vsc.na)   // undefined
+// win.vsc.method()
+
+
+// Note = we cant access big object values in inside of its small object coz of in small object that properties not defined
+// note = Directly use arrow function we have a global scope wheter we have inside of small object
+//----------------------------------------------------------------------
+
+
+
+
+
+
+// setInterval(function krish(){
+//     console.log(2 + 3); 
+// }, 3000)
+
+
+
+setTimeout(
+   function(){
+       console.log(23)
+   } , 5000
+)
 
