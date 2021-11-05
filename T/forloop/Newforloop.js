@@ -23,9 +23,16 @@ let arr = [1,2,3]
 
 
 
-for(let k of arr.entries()){    // one by one arrays index value and arrays values gives in array at k place ( k datatype is object (Array))   
-    console.log(k)
-    console.log(typeof(k))   // object
+// for(let k of arr.entries()){    // one by one arrays index value and arrays values gives in array at k place ( k datatype is object (Array))   
+//     console.log(k)
+//     console.log(typeof(k))   // object
+// }
+
+
+
+for(let [key,val] of arr.entries()){    // one by one arrays index value and arrays values gives in array at k place ( k datatype is object (Array))   
+    console.log(key,val)
+    console.log(typeof(key,val))   // object
 }
 
 
