@@ -269,6 +269,8 @@
 
 
 
+
+
 // let kk =  ''  //{n:'kk'}
 
 
@@ -285,18 +287,18 @@
 
 //-------------------------------------------------------------------------------------------------
 
-function add() {
+// function add() {
 
-    a = 3
-    console.log(a)
-}
+//     a = 3
+//     console.log(a)
+// }
 
-add()
-console.log(add())
-{
-    a = 3
-    console.log(a)
-}
+// add()
+// console.log(add())
+// {
+//     a = 3
+//     console.log(a)
+// }
 // Note = we can declear variable inside the function and also inside the block without using any keyword for the variable decleration
 // whenever variables defined with let, const, var and any method/function directly call then its altimatly call/defined on super object/WINDOW
 
@@ -334,9 +336,38 @@ console.log(add())
 
 
 
-setTimeout(
-   function(){
-       console.log(23)
-   } , 5000
-)
+// setTimeout(
+//    function(){
+//        console.log(23)
+//    } , 5000
+// )
+
+// let a = 10
+// let str = `my age is`
+// console.log(typeof (str))   // string
+
+// str = `my age is ${a}`    
+// console.log(str)               // my age is 10
+// console.log(typeof (str))     //  string
+
+/* NOTE = 
+1) Single/Double quotes and back ticks returns "string" datatype.
+2) In back ticks we have advantage we can use variable value directly by using "PLACE HOLDER".
+3) Have any variable value (Datatype) like Object (RegEx).....
+*/
+////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

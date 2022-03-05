@@ -84,7 +84,7 @@ function createUserName(account) {
   // ["Sarah","Smith"] // ["S","S] // .join("") //s
 }
 
-//console.log(accounts)
+// console.log(accounts)
 
 
 // Event handlers or Listeners 
@@ -92,14 +92,12 @@ function createUserName(account) {
 
 // Login 
 
-// btnLogin.addEventListener('click', function () {
+btnLogin.addEventListener('click', function () {
 
 
 
 
-
-
-// })
+})
 
 
 
@@ -148,32 +146,28 @@ function createUserName(account) {
 
 // const accounts = [account1, account2, account3, account4];
 
-let r = document.querySelectorAll('.app')
+// let r = document.querySelectorAll('.app')
 
 
 
 
 
-btnLogin.addEventListener('click', function () {
-  containerApp.style.opacity = 100;
-  let check = accounts.find((el) => {
-    console.log(el)
-    return el.owner == inputLoginUsername.value && el.pin == inputLoginPin.value
-  })
+// btnLogin.addEventListener('click', function () {
+//   containerApp.style.opacity = 100;
+//   let check = accounts.find((el) => {
+//     console.log(el)
+//     return el.owner == inputLoginUsername.value && el.pin == inputLoginPin.value
+//   })
 
-  console.log(check)
-
-
-  if (check) {
-
-    //containerApp.setAttribute('style','opacity:100')
-    containerApp.style.opacity = 100;
-    console.log('YES')
-  } else {
-    console.log('NOT')
-  }
+//   console.log(check)
 
 
+//   if (check) {
 
-
-})
+//     //containerApp.setAttribute('style','opacity:100')
+//     containerApp.style.opacity = 100;
+//     console.log('YES')
+//   } else {
+//     console.log('NOT')
+//   }
+// })
